@@ -18,6 +18,15 @@ target/
 *.iws
 *.iml
 *.ipr
+/target/
+/.project
+/.settings
+/.classpath
+/.gitignore
+/HELP.md
+/mvnw
+/mvnw.cmd
+/.DS_Store
 
 ### NetBeans ###
 /nbproject/private/
