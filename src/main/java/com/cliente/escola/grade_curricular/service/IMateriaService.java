@@ -1,7 +1,6 @@
 package com.cliente.escola.grade_curricular.service;
 
 import com.cliente.escola.grade_curricular.dto.MateriaDto;
-import com.cliente.escola.grade_curricular.entity.MateriaEntity;
 
 import java.util.List;
 
@@ -13,4 +12,7 @@ public interface IMateriaService {
 
     public Boolean cadastrar(final MateriaDto materia);
 
+    public Boolean atualizar(final MateriaDto materia);
+
+    public Boolean excluir(final Long id);
 }
